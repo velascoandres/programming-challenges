@@ -15,14 +15,17 @@ Design a data structure to store the strings' count with the ability to return t
 
 ## Example 1:
 
-Input
+### Input
 ```
 ["AllOne", "inc", "inc", "getMaxKey", "getMinKey", "inc", "getMaxKey", "getMinKey"]
 [[], ["hello"], ["hello"], [], [], ["leet"], [], []]
-Output
+```
+
+### Output
+```
 [null, null, null, "hello", "hello", null, "hello", "leet"]
 ```
-Explanation
+### Explanation
 ```js
 AllOne allOne = new AllOne();
 allOne.inc("hello");
@@ -34,7 +37,7 @@ allOne.getMaxKey(); // return "hello"
 allOne.getMinKey(); // return "leet"
  ```
 
-## Constraints:
+### Constraints:
 ```
 1 <= key.length <= 10
 ```
