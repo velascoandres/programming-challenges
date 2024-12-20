@@ -1,0 +1,7 @@
+[workspace]
+
+members = [
+    "all-one",
+    "find-word-containing-character",
+    "minimun-number-coins-fruits",
+]
